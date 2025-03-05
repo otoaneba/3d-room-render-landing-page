@@ -1,0 +1,37 @@
+.clients-section {
+  padding: 6rem 2rem;
+  text-align: center;
+  background-color: #f8f9fa;
+}
+
+.clients-section h2 {
+  font-size: 2.5rem;
+  color: #1A1A1A;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.clients-section p {
+  color: #4A4A4A;
+  font-size: 1.1rem;
+  margin-bottom: 3rem;
+}
+
+.client-logos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 2rem;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.client-logo {
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+.client-logo:hover {
+  opacity: 1;
+} 

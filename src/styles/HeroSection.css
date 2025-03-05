@@ -1,0 +1,88 @@
+.hero-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  padding: 4rem 0;
+  position: relative;
+  min-height: 100vh;
+  padding-top: 80px;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('../assets/interior_design_large.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  border-radius: 15px;
+  /* backdrop-filter: blur(2px) */
+}
+
+.hero-content h1 {
+  font-size: 4.5rem;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+  color: #1A1A1A;
+  font-weight: 700;
+}
+
+.hero-content h1 .highlight {
+  color: #2C2C2C;
+  display: block;
+  font-weight: 800;
+}
+
+.hero-content p {
+  color: #4A4A4A;
+  margin-bottom: 2rem;
+  max-width: 80%;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.cta-button {
+  background-color: #1A1A1A;
+  color: white;
+  border: none;
+  padding: 1rem 2.5rem;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #2C2C2C;
+  transform: translateY(-2px);
+}
+
+.hero-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.95);
+}
+
+.discover-more {
+  color: #1A1A1A;
+  font-weight: 500;
+}
+
+.dot {
+  background-color: #1A1A1A;
+}
+
+.dot.active {
+  background-color: #4A4A4A;
+}
+
+/* Update other styles as needed */ 
