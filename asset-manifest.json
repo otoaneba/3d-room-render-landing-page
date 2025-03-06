@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/3d-room-render-landing-page/static/css/main.f112f619.css",
-    "main.js": "/3d-room-render-landing-page/static/js/main.9e77e15a.js",
+    "main.css": "/3d-room-render-landing-page/static/css/main.150ba5c7.css",
+    "main.js": "/3d-room-render-landing-page/static/js/main.271ce92a.js",
     "static/js/453.af81e7e7.chunk.js": "/3d-room-render-landing-page/static/js/453.af81e7e7.chunk.js",
     "static/media/interior_design_large.jpg": "/3d-room-render-landing-page/static/media/interior_design_large.e1287641aec750560e99.jpg",
     "index.html": "/3d-room-render-landing-page/index.html",
-    "main.f112f619.css.map": "/3d-room-render-landing-page/static/css/main.f112f619.css.map",
-    "main.9e77e15a.js.map": "/3d-room-render-landing-page/static/js/main.9e77e15a.js.map",
+    "main.150ba5c7.css.map": "/3d-room-render-landing-page/static/css/main.150ba5c7.css.map",
+    "main.271ce92a.js.map": "/3d-room-render-landing-page/static/js/main.271ce92a.js.map",
     "453.af81e7e7.chunk.js.map": "/3d-room-render-landing-page/static/js/453.af81e7e7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f112f619.css",
-    "static/js/main.9e77e15a.js"
+    "static/css/main.150ba5c7.css",
+    "static/js/main.271ce92a.js"
   ]
 }
