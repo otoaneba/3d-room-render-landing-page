@@ -4,8 +4,8 @@ import '../styles/ClientsSection.css';
 function ClientsSection() {
   return (
     <section className="clients-section" id="products">
-      <h2>Our Clients</h2>
-      <p>We have been working with some Fortune 500+ clients</p>
+      <h2>Bring Your Interior Ideas to Life</h2>
+      <p>Our platform lets you design rooms in 3D with intuitive tools, pre-loaded assets, and real-time rendering.</p>
       <div className="client-logos">
         {/* Add 4-6 client logo images here */}
         <img src="/client1.png" alt="Client 1" className="client-logo" />

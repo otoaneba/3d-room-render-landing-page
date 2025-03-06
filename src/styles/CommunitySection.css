@@ -1,47 +1,59 @@
 .community-section {
   padding: 6rem 2rem;
   text-align: center;
-  background-color: white;
+  background-color: #f8f9fa;
 }
 
 .community-section h2 {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   color: #1A1A1A;
   margin-bottom: 1rem;
   font-weight: 700;
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
+  line-height: 1.2;
 }
 
 .community-section > p {
   color: #4A4A4A;
-  font-size: 1.1rem;
-  margin-bottom: 3rem;
+  font-size: 1.2rem;
+  margin-bottom: 4rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
 }
 
 .features-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
+  gap: 2.5rem;
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 1rem;
 }
 
 .feature-card {
-  padding: 2rem;
-  background: #f8f9fa;
-  border-radius: 15px;
-  transition: transform 0.3s ease;
+  padding: 2.5rem 2rem;
+  background: white;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
 }
 
 .feature-card:hover {
   transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
 }
 
 .feature-card .icon {
-  font-size: 2.5rem;
+  font-size: 3rem;
   margin-bottom: 1.5rem;
+  display: inline-block;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 15px;
 }
 
 .feature-card h3 {
@@ -54,4 +66,23 @@
 .feature-card p {
   color: #4A4A4A;
   line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+  .community-section {
+    padding: 4rem 1rem;
+  }
+
+  .community-section h2 {
+    font-size: 2.2rem;
+  }
+
+  .features-grid {
+    gap: 1.5rem;
+  }
+
+  .feature-card {
+    padding: 2rem 1.5rem;
+  }
 } 
