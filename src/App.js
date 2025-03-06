@@ -13,7 +13,6 @@ function App() {
       <HeroSection />
       <ClientsSection />
       <CommunitySection />
-      <StatsSection />
       <Footer />
     </div>
   );

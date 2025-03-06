@@ -22,8 +22,8 @@ function CommunitySection() {
         
         <div className="feature-card">
           <div className="icon">👥</div>
-          <h3>Clubs And Groups</h3>
-          <p>Our membership management software provides full automation of membership renewals and payments</p>
+          <h3>Other user</h3>
+          <p>Some other selling point</p>
         </div>
       </div>
     </section>
